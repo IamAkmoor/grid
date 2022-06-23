@@ -1,0 +1,21 @@
+body{
+    background-color: grey;
+}
+.menu{
+    background-color: blue;
+}
+.menu li a{
+    color: white;
+}
+#marat{
+    width: 150px;
+    border: solid 6px white;
+    border-radius: 30px;
+}
+h1{
+    color: orange;
+}
+span{
+    background-color: orange;
+    font-size: 30px;
+}

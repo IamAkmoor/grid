@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,200px);
+    gap: 10px;
+    padding: 1em;
+}
+header{
+    background-color: green;
+    grid-column: 1/5;
+}
+main{
+    background-color: darkolivegreen;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+aside{
+    background-color: lightgreen;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.section{
+    background-color: yellowgreen;
+    grid-column: 1/4;
+}
+footer{
+    background-color: yellow;
+    grid-column: 1/5;
+}
+*{
+    text-align: center;
+    font-size: 25px;
+}
